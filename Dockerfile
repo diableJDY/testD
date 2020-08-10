@@ -2,7 +2,7 @@ FROM tomcat:7-jre8
 
 ENV CATALINA_OPTS="$CATALINA_OPTS -Xms64m -Xmx2048m -XX:MaxPermSize=2048m"
 
-WORKDIR /usr/local/tomcat
+WORKDIR /Users/jeongdaeyeong/dev/tomcat
 
 RUN rm -rf ./webapps/*
 
